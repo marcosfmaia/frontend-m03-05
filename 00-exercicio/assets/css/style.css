@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Esteban', serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E5E5;
+    padding: 100px;
+}
+
+.card {
+    width: 576px;
+    height: 359px;
+    background-color: #FEFEFE;
+    border-radius: 16PX;
+    margin: auto;
+}
+
+.card header {
+    width: 512px;
+    margin: auto;
+    padding-top: 33px;
+}
+
+.card__header__title {
+    float: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3D5A80;
+}
+
+.card__header__icon-close {
+    float: right;
+    cursor: pointer;
+}
+
+.card__content {
+    width: 512px;
+    margin: auto;
+    margin-top: 48px;
+}
+
+.icon-chat, .icon-telegram,  .icon-twitter, .icon-whatsapp, .icon-email, .icon-more {
+    width: 72px;
+    height: 95px;
+    float: left;
+}
+
+.icon-telegram,  .icon-twitter, .icon-whatsapp, .icon-email, .icon-more {
+    margin-left: 16px;
+}
+
+.icon {
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(157, 157, 157, 0.04);
+    border-radius: 37.3333px;
+}
+
+.icon-chat .icon {
+    background-image: url(../images/icon-chat.png);
+}
+
+.icon-telegram .icon {
+    background-image: url(../images/icon-telegram.png);
+}
+
+.icon-twitter .icon {
+    background-image: url(../images/icon-twitter.png);
+}
+
+.icon-whatsapp .icon {
+    background-image: url(../images/icon-whats.png);
+}
+
+.icon-email .icon {
+    background-image: url(../images/icon-email.png);
+    background-color: rgba(238, 188, 77, 0.08);
+}
+
+.icon-more .icon {
+    background-image: url(../images/icon-more.png);
+}
+
+.text {
+    color: #3D5A80;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.icon-email .text {
+    color: #EE6C4D;
+}
+
+.footer__container {
+    clear: both;
+    padding-top: 44px;
+    margin-top: 31px;
+}
+
+.footer__text {
+    color: #3D5A80;
+    font-family: 'Esteban', serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.footer__link {
+    width: 512px;
+    height: 53px;
+    background-color: rgba(157, 157, 157, 0.04);
+    border-radius: 16px;
+    margin: auto;
+}   
+
+.link__text {
+    float: left;
+    color: rgba(61, 90, 128, 0.5);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 18px;
+}
+
+.footer__image {
+    float: right;
+    padding: 16px 20px;
+    cursor: pointer;
+}
+
+
+
+
+
